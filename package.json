@@ -1,0 +1,13 @@
+{
+  "name": "carvello-ai",
+  "private": true,
+  "version": "11.0.0",
+  "scripts": {
+    "serve": "node scripts/serve.js",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.0"
+  }
+}
